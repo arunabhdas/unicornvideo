@@ -2,7 +2,7 @@
 Unicorn Stack Video Player
 
 ## Screenshots
-<img src="" width="200">
+<img src="https://raw.githubusercontent.com/arunabhdas/unicornvideo/main/screenshots/screenshot_1.png" width="200">
 
 ## Links
 Icon Kitchen
