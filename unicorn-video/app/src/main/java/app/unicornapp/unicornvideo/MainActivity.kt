@@ -1,5 +1,6 @@
 package app.unicornapp.unicornvideo
 
+import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.AppBarConfiguration
@@ -15,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val uri: Uri = Uri.parse(
+            "android.resource://" + packageName + "/" + "test"
+        )
 
     }
 }
